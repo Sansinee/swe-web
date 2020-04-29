@@ -53,7 +53,7 @@ $route['default_controller'] = 'main';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['categorise/(:any)'] = function ($id){
-    
-   return 'categorise/index/'.$id;
+$route['categories/(:any)'] = function ($id){
+
+   return 'categories/index/'.$id;
 }

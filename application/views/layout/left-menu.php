@@ -27,7 +27,7 @@
                         <h4 class="title__line--4">categories</h4>
                         <ul class="ht__cat__list">
                             <?php foreach ($categories as $row) { ?>
-                                <li><a href="<?php echo base_url('categorise/'.$row['_id']); ?>"><?php echo $row['name'] ?></a></li>
+                                <li><a href="<?php echo base_url('categories/'.$row['_id']); ?>"><?php echo $row['name'] ?></a></li>
                             <?php } ?>
                         </ul>
                     </div>
