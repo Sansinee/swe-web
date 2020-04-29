@@ -55,5 +55,5 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['categories/(:any)'] = function ($id){
 
-   return 'categories/index/'.$id;
-}
+   return 'categories/index/' . $id;
+};

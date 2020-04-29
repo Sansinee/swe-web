@@ -14,7 +14,7 @@ class Categories_model extends CI_Model{
             $this->mongo_db->where($condition);
         }
 
-        $result = $this->mongo_db->getOne('categories');
+        $result = $this->mongo_db->get('categories');
         return $result;
     }
 
